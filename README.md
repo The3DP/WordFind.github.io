@@ -1,4 +1,4 @@
-<p align="center"> #WordFind
+<p align="center"> WordFind
 
 WordFind is an HTML code-based game.
 ##
