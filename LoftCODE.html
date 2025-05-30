@@ -1,1 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Enhanced Word Search Generator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      text-align: center;
+    }
 
+    .grid {
+      display: grid;
+      margin: 20px auto;
+      gap: 3px;
+      width: fit-content;
+    }
+
+    .cell {
+      width: 35px;
+      height: 35px;
+      text-align: center;
+      line-height: 35px;
+      border: 1px solid #999;
+      font-weight: bold;
+      font-size: 16px;
+      background-color: #f0f0f0;
+      transition: background-color 0.3s;
+    }
+
+    .cell:hover {
+      background-color: #cceeff;
+    }
+
+    input, button {
+      margin: 5px;
+      padding: 5px 10px;
+      font-size: 14px;
+    }
+
+    #word-list {
+      margin-top: 10px;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Word Search Generator</h1>
+
+<label for="grid-size">Grid Size:</label>
+<input type="number" id="grid-size" value="10" min="5" max="20">
+
+<br>
+
+<label for="words">Enter words (comma separated):</label>
+<input type="text" id="words" value="apple,banana,orange,grape">
+
+<br>
+
+<button onclick="generateWordSearch()">Generate Word Search</button>
+
+<div id="word-search" class="grid"></div>
+<div id="word-list"></div>
+
+<script>
+function generateWordSearch() {
+  const gridSize = parseInt(document.getElementById('grid-size').value);
+  let words = document.getElementById('words').value
+    .split(',')
+    .map(w => w.trim().toLowerCase())
+    .filter(w => w.length > 1 && w.length <= gridSize);
+
+  if (words.length === 0) {
+    alert("Please enter at least one valid word.");
+    return;
+  }
+
+  const grid = Array.from({ length: gridSize }, () => Array(gridSize).fill(' '));
+  const directions = [
+    { x: 1, y: 0 },  // horizontal
+    { x: 0, y: 1 },  // vertical
+    { x: 1, y: 1 },  // diagonal down-right
+    { x: -1, y: 1 }  // diagonal down-left
+  ];
+
+  function placeWord(word) {
+    let attempts = 0;
+    const maxAttempts = 100;
+
+    while (attempts < maxAttempts) {
+      const dir = directions[Math.floor(Math.random() * directions.length)];
+      const startX = dir.x === -1
+        ? Math.floor(Math.random() * (gridSize - word.length)) + word.length
+        : Math.floor(Math.random() * (gridSize - (dir.x * word.length || 0)));
+
+      const startY = Math.floor(Math.random() * (gridSize - (dir.y * word.length || 0)));
+
+      let fits = true;
+      for (let i = 0; i < word.length; i++) {
+        const x = startX + i * dir.x;
+        const y = startY + i * dir.y;
+        if (grid[y]?.[x] !== ' ' && grid[y][x] !== word[i]) {
+          fits = false;
+          break;
+        }
+      }
+
+      if (fits) {
+        for (let i = 0; i < word.length; i++) {
+          const x = startX + i * dir.x;
+          const y = startY + i * dir.y;
+          grid[y][x] = word[i];
+        }
+        return true;
+      }
+      attempts++;
+    }
+    console.warn(`Failed to place word: ${word}`);
+    return false;
+  }
+
+  words.forEach(placeWord);
+
+  // Fill empty spaces
+  for (let y = 0; y < gridSize; y++) {
+    for (let x = 0; x < gridSize; x++) {
+      if (grid[y][x] === ' ') {
+        grid[y][x] = String.fromCharCode(97 + Math.floor(Math.random() * 26));
+      }
+    }
+  }
+
+  // Render Grid
+  const gridContainer = document.getElementById('word-search');
+  gridContainer.style.gridTemplateColumns = `repeat(${gridSize}, 35px)`;
+  gridContainer.innerHTML = '';
+  grid.forEach(row => {
+    row.forEach(letter => {
+      const div = document.createElement('div');
+      div.className = 'cell';
+      div.textContent = letter.toUpperCase();
+      gridContainer.appendChild(div);
+    });
+  });
+
+  // Display word list
+  document.getElementById('word-list').innerHTML = `<strong>Find these words:</strong> ${words.join(', ')}`;
+}
+
+// Initial generation
+generateWordSearch();
+</script>
+</body>
+</html>
