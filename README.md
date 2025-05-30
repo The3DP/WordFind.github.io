@@ -1,19 +1,5 @@
 # WordFind
-A Multi code platform word search game.
-##
-WordFind is indeed, a full-on multi platform WordSearch game 
-##
->HTML
-
->COBOL
-
->TypeScript
-
->Perl
-
->Shell
-
->Dart
+WordFing is an HTML code-based game.
 ##
 Thank you for understanding the rules and regulations in LICENSE.
 For questions on this repository related to the "Creative Commons Legal Code
@@ -22,3 +8,5 @@ d73928430@gmail.com
 
 - The3DP
 ##
+>This repository is fully (100%) complete.
+>
