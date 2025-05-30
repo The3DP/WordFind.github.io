@@ -1,4 +1,4 @@
-# WordFind
+<p align="center"># WordFind
 WordFing is an HTML code-based game.
 ##
 OBJECTIVE:
