@@ -27,9 +27,9 @@ will demonstrate how each one performs.
 
 <img width="1440" height="900" alt="Screenshot 2025-11-08 at 7 47 04 AM" src="https://github.com/user-attachments/assets/3c4ee5ea-e6a4-40ab-9066-0e225fb7a0bd" />
 
-
 ### Example of using *SummitCode.html*:
 
+<img width="1440" height="900" alt="Screenshot 2025-11-08 at 7 47 04 AM" src="https://github.com/user-attachments/assets/2a9bfc98-0dc8-4c22-be40-7d8e75d94f70" />
 
 ## License
 Thank you for understanding the rules and regulations in LICENSE.md.
@@ -53,4 +53,5 @@ d73928430@gmail.com
 If you would like to test this code on a online site,
 then click [*this link*](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
 ##
-![100% Complete](https://img.shields.io/badge/Progress-100%25-darkgreen)
+
+![Repo status](https://img.shields.io/badge/Progress-100%25-darkgreen)
