@@ -8,7 +8,7 @@ It is similar to the procedures of a word search game.
 WordFind consists of three code files:
 
 - [Code.html](https://github.com/The3DP/WordFind.github.io/blob/main/Code%20Files/CODE.html)
-- [LoftCode.html](
+- [LoftCode.html](https://github.com/The3DP/WordFind.github.io/blob/main/Code%20Files/LoftCODE.html)
 - [and SummitCode.html](
 
 ## License
