@@ -4,6 +4,13 @@ WordFind is an HTML code-based game.
 The objective of the game is to find all the words in the puzzle. 
 It is similar to the procedures of a word search game.
 
+## Using the 'Code Files':
+WordFind consists of three code files:
+
+- Code.html
+- SummitCode.html
+- and LoftCode.html
+
 ## License
 Thank you for understanding the rules and regulations in LICENSE.md.
 For questions on this repository related to the "Creative Commons Legal Code
