@@ -1,8 +1,13 @@
 ## WordFind
 
-WordFind is an HTML code-based game. 
+WordFind is an HTML-based word game generator.
+It is simple and easy to use, and supports many applications,
+from fun activities, to challenging concepts.
 The objective of the game is to find all the words in the puzzle. 
 It is similar to the procedures of a word search game.
+NOTE: YOU are the one generating the word search game,
+so you will already know the answers. This is to be 
+played by those that don't generate the game.
 
 ## Using the 'Code Files':
 WordFind consists of three code files:
