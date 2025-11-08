@@ -31,6 +31,9 @@ will demonstrate how each one performs.
 
 <img width="1440" height="900" alt="Screenshot 2025-11-08 at 7 47 04 AM" src="https://github.com/user-attachments/assets/2a9bfc98-0dc8-4c22-be40-7d8e75d94f70" />
 
+## Testing
+All of the photos above were from running my programs on [*this site*](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
+.
 ## License
 Thank you for understanding the rules and regulations in LICENSE.md.
 For questions on this repository related to the "Creative Commons Legal Code
@@ -49,9 +52,5 @@ d73928430@gmail.com
 
 - No attribution required: You do not need to credit the creator, though you should not imply endorsement. 
 
-## Testing
-If you would like to test this code on a online site,
-then click [*this site*](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
 ##
-
 ![Repo status](https://img.shields.io/badge/Progress-100%25-darkgreen)
