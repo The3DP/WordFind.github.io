@@ -10,7 +10,17 @@ For questions on this repository related to the "Creative Commons Legal Code
 CC0 1.0 Universal" please contact me at my public email:
 d73928430@gmail.com
 
+## Permissions
 
+- Copying: You can copy the work without restriction.
+
+- Modifying: You can edit, remix, or build upon the work.
+
+- Distributing: You can share the work with others.
+
+- Commercial use: You can use the work for commercial purposes.
+
+- No attribution required: You do not need to credit the creator, though you should not imply endorsement. 
 
 https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default
 ##
