@@ -51,7 +51,7 @@ d73928430@gmail.com
 
 ## Testing
 If you would like to test this code on a online site,
-then click [*this link*](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
+then click [*this site*](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
 ##
 
 ![Repo status](https://img.shields.io/badge/Progress-100%25-darkgreen)
