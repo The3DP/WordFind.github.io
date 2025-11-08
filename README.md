@@ -8,8 +8,8 @@ It is similar to the procedures of a word search game.
 WordFind consists of three code files:
 
 - Code.html
-- SummitCode.html
-- and LoftCode.html
+- LoftCode.html
+- and SummitCode.html
 
 ## License
 Thank you for understanding the rules and regulations in LICENSE.md.
