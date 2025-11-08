@@ -28,7 +28,7 @@ will demonstrate how each one performs.
 <img width="1440" height="900" alt="Screenshot 2025-11-08 at 7 47 04 AM" src="https://github.com/user-attachments/assets/3c4ee5ea-e6a4-40ab-9066-0e225fb7a0bd" />
 
 
-### Example of using SummitCode.html
+### Example of using *SummitCode.html*:
 
 
 ## License
