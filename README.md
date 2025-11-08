@@ -11,6 +11,9 @@ WordFind consists of three code files:
 - [LoftCode.html](https://github.com/The3DP/WordFind.github.io/blob/main/Code%20Files/LoftCODE.html)
 - and [SummitCode.html](https://github.com/The3DP/WordFind.github.io/blob/main/Code%20Files/SummitCODE.html)
 
+These files each contain various levels and modes of the game. Below, we 
+will demonstrate how each one performs, and which one is right for you.
+
 ## License
 Thank you for understanding the rules and regulations in LICENSE.md.
 For questions on this repository related to the "Creative Commons Legal Code
