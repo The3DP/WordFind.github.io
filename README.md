@@ -19,6 +19,8 @@ WordFind consists of three code files:
 These files each contain various levels and modes of the game. Below, we 
 will demonstrate how each one performs.
 
+###Example of using *Code.html*:
+
 
 
 ## License
