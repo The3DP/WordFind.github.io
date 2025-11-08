@@ -9,7 +9,7 @@ WordFind consists of three code files:
 
 - [Code.html](https://github.com/The3DP/WordFind.github.io/blob/main/Code%20Files/CODE.html)
 - [LoftCode.html](https://github.com/The3DP/WordFind.github.io/blob/main/Code%20Files/LoftCODE.html)
-- [and SummitCode.html](
+- [and SummitCode.html](https://github.com/The3DP/WordFind.github.io/blob/main/Code%20Files/SummitCODE.html)
 
 ## License
 Thank you for understanding the rules and regulations in LICENSE.md.
