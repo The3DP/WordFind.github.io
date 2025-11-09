@@ -29,7 +29,7 @@ will demonstrate how each one performs.
 
 ### Example of using *SummitCode.html*:
 
-<img width="1440" height="900" alt="Screenshot 2025-11-08 at 7 47 04 AM" src="https://github.com/user-attachments/assets/688eeb16-214a-4b26-96b0-007411a2e73d" />
+<img width="1440" height="900" alt="Screenshot 2025-11-08 at 7 47 04 AM" src="https://github.com/user-attachments/assets/7b6f4c2a-5b63-4637-b50e-c33153e54a12" />
 
 ## Testing
 All of the photos above were from running my programs on [*this site*](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default).
