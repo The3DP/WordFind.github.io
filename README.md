@@ -34,6 +34,12 @@ will demonstrate how each one performs.
 ## Testing
 All of the photos above were from running my programs at [*this site*](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default).
 
+#### Direct links for files
+
+- [*Code.html*](https://github.com/The3DP/WordFind.github.io/blob/main/Code%20Files/CODE.html)
+- [*LoftCode.html*](https://github.com/The3DP/WordFind.github.io/blob/main/Code%20Files/LoftCODE.html)
+- [*SummitCode.html*](https://github.com/The3DP/WordFind.github.io/blob/main/Code%20Files/SummitCODE.html)
+
 ## License
 Thank you for understanding the rules and regulations in LICENSE.md.
 For questions on this repository related to the "Creative Commons Legal Code
